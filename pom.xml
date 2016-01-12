@@ -182,9 +182,12 @@
 				<version>9.2.10.v20150310</version>
 				<configuration>
 			    <scanIntervalSeconds>10</scanIntervalSeconds>
-				    <webApp>
-				      	<contextPath>/</contextPath>
-				    </webApp>
+				<httpConnector>
+					<port>8081</port>
+				</httpConnector>
+				<webApp>
+					<contextPath>/</contextPath>
+				</webApp>
 			  </configuration>
 			</plugin>
 		</plugins>
